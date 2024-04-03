@@ -24,7 +24,7 @@ I learned the basics of SQL and simple quieries. I have worked with a sample dat
 The Sakila database is a free database that I have worked with to practice MySQL.  
 Below is the EER diagram for the Sakila Database.  
 
-![Sakila_EER_Diagram](Sakila_EER_Diagram.png)
+![Sakila_EER_Diagram](SakilaSQL/Sakila_EER_Diagram.png)
 
 ```sql
 SELECT
