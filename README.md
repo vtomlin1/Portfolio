@@ -26,3 +26,7 @@ Below is the EER diagram for the Sakila Database.
 
 ![Sakila_EER_Diagram](Sakila_EER_Diagram.png)
 
+'''python
+print("Hello World")
+'''
+
