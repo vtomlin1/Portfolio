@@ -26,7 +26,10 @@ Below is the EER diagram for the Sakila Database.
 
 ![Sakila_EER_Diagram](Sakila_EER_Diagram.png)
 
-```python
-print("Hello World")
+```sql
+SELECT
+    CONCAT('$',amount) AS 'Payment Amount',
+    DATE_FORMAT(payment_date, "%d/%m/%Y") AS 'Payment Date'
+FROM payment LIMIT 20;
 ```
 
