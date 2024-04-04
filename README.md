@@ -1,7 +1,8 @@
 # Hello! My name is Tori Tomlinson   
 Feel free to contact me at either my gmail vtomlin315@gmail.com or my linkedin at www.linkedin.com/in/victoria-tomlinson-4ba316240!   
 --- 
-I am an aspiring Data Analyst. 
+I am an aspiring Data Scientist with a bachelors in Applied Mathematics from UC Davis.  
+
 
 ## Skills  
 **Communication** - I have worked in groups and shared code for class assignments. I have also worked in sales and customer satisfaction. 
