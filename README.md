@@ -3,13 +3,13 @@ Feel free to contact me at either my gmail vtomlin315@gmail.com or my linkedin a
 ---   
 I am an aspiring Data Analyst. 
 
-## Skills
+## Skills  
 ---  
 **Communication** - I have worked in groups and shared code for class assignments. I have also worked in sales and customer satisfaction. 
 
 **Technical** - I have beginner experience with Python, SQL, Tableau, and Excel.  
 
-## Education 
+## Education   
 ---
 I have a bachelors of science in Applied Mathematics from UC Davis. 
 
@@ -23,6 +23,11 @@ I took a course in **Visual Analytics in Tableau**. I created many different sty
 The other course that I took was **SQL for Data Science**.
 I learned the basics of SQL and simple quieries. I have worked with a sample database called the Chinook database to extract data and transform the data into a table that displays relevant data to answer many example questions.  
 
+## Extra-Curricular  
+---  
+- I was a member of math club at UC Davis. I attended some workshops and math challenges within teams.   
+- I attended many workshops at HackDavis in 2023 to explore many different programming languages such as HTML, Javascript, and React. Worked with a small team to follow different workshops for a whole week.
+- I participated in hacking weeks in Major Hacking League and attended many data workshops. Mostly exploring data science and machine learning algorithms.  
 ## Projects 
 ---
 ### SQL Sakila 
