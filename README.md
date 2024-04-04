@@ -1,7 +1,14 @@
-# Hello! My name is Tori Tomlinson  
-Feel free to contact me at either my gmail vtomlin315@gmail.com or my linkedin at www.linkedin.com/in/victoria-tomlinson-4ba316240!
+# Hello! My name is Tori Tomlinson   
+Feel free to contact me at either my gmail vtomlin315@gmail.com or my linkedin at www.linkedin.com/in/victoria-tomlinson-4ba316240!   
+---   
+I am an aspiring Data Analyst. 
+
+## Skills
 ---  
-I am an aspiring Data Analyst with experience in SQl, Excel, Python, and Tableau.  
+**Communication** - I have worked in groups and shared code for class assignments. I have also worked in sales and customer satisfaction. 
+
+**Technical** - I have beginner experience with Python, SQL, Tableau, and Excel.  
+
 ## Education 
 ---
 I have a bachelors of science in Applied Mathematics from UC Davis. 
@@ -15,12 +22,6 @@ I took a course in **Visual Analytics in Tableau**. I created many different sty
 
 The other course that I took was **SQL for Data Science**.
 I learned the basics of SQL and simple quieries. I have worked with a sample database called the Chinook database to extract data and transform the data into a table that displays relevant data to answer many example questions.  
-
-## Skills
----  
-**Communication** - I have worked in groups and shared code for class assignments. I have also worked in sales and customer satisfaction. 
-
-**Technical** - I have beginner experience with Python, SQL, Tableau, and Excel. 
 
 ## Projects 
 ---
