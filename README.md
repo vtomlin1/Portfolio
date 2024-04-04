@@ -1,3 +1,6 @@
+# Hello! My name is Tori Tomlinson   
+
+These are some of the projects that I have worked on.  
 # Hello! My name is Tori Tomlinson  
 ---  
 I am an aspiring Data Analyst with beginner experience in SQl, Excel, Python, and Tableau.  
