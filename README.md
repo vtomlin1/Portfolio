@@ -2,7 +2,7 @@
 ---  
 I am an aspiring Data Analyst with beginner experience in SQl, Excel, Python, and Tableau.  
 ## Education 
----
+---  
 I have a bachelors of science in Applied Mathematics from UC Davis. 
 
 During my time at UC Davis, I took courses in Real Analysis and Numerical Analysis that taught me mathematical logic and problem solving. These classes were also quite challenging, so I often worked within groups to solve many challenges and seeked out many resources on my own to solve many problems.  
@@ -17,14 +17,14 @@ The other course that I took was SQL for Data Science.
 
 I learned the basics of SQL and simple quieries. I have worked with a sample database called the Chinook database to extract data and transform the data into a table that displays relevant data to answer many example questions.  
 
-## Projects 
----
-### SQL Sakila 
----
+## Projects  
+---  
+### SQL Sakila  
+---  
 The Sakila database (version 1.3) is a free database that I have worked with to practice MySQL.  
 Below is the EER diagram for the Sakila Database.  
 
-![Sakila_EER_Diagram](SakilaSQL/Sakila_EER_Diagram.png)
+![Sakila_EER_Diagram](SakilaSQL/Sakila_EER_Diagram.png)  
 
 ```sql
 SELECT
