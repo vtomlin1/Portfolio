@@ -9,10 +9,9 @@
             "server": "localhost",
             "port": 3306,
             "driver": "MySQL",
-            "name": "local instant MySQL80",
+            "name": "Sakila",
             "database": "sakila",
-            "username": "root",
-            "askForPassword": true
+            "username": "root"
         }
     ]
 }
