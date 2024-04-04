@@ -1,5 +1,5 @@
 # Hello! My name is Tori Tomlinson  
-## Feel free to contact me at either vtomlin315@gmail.com or my linkedin at www.linkedin.com/in/victoria-tomlinson-4ba316240!
+Feel free to contact me at either my gmail vtomlin315@gmail.com or my linkedin at www.linkedin.com/in/victoria-tomlinson-4ba316240!
 ---  
 I am an aspiring Data Analyst with experience in SQl, Excel, Python, and Tableau.  
 ## Education 
