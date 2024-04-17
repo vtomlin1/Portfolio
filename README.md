@@ -2,10 +2,9 @@
 
 These are some of the projects that I have worked on.  
 
-## Projects  
----  
+## Projects   
 ### SQL Sakila  
----  
+---   
 The Sakila database (version 1.3) is a free database that I have worked with to practice MySQL.  
 Below is the EER diagram for the Sakila Database.  
 
