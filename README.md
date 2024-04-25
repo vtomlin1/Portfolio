@@ -1,12 +1,8 @@
 # Hello! My name is Tori Tomlinson   
-
-These are some of the projects that I have worked on.  
-
 ## Projects   
 ### SQL Sakila  
 ---   
-The Sakila database (version 1.3) is a free database that I have worked with to practice MySQL.  
-Below is the EER diagram for the Sakila Database.  
+The Sakila database (version 1.3) is an example database from the MySQL workbench app. 
 
 ![Sakila_EER_Diagram](SakilaSQL/Sakila_EER_Diagram.png)  
 
