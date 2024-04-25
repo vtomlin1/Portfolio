@@ -58,3 +58,15 @@ FROM customer c
 WHERE active = '1'
 ORDER BY RY.country ASC;
 
+/*Gets the store location and ID*/
+/*SELECT 
+s.store_id as "ID",
+y.country as "Country",
+c.city as "City"
+FROM store s
+    inner join address a
+    on s.address_id = a.address_id
+    inner join city c
+    on a.city_id = c.city_id
+    inner join country y
+    on c.country_id = y.country_id;*/
