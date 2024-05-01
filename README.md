@@ -21,9 +21,12 @@ WHERE CONCAT(first_name, ' ',last_name) = "VICTORIA GIBSON";
 ```
 This code comes from this sql file [Rental](/SakilaSQL/Rental.sql).
 
+
+
 ## Canada_Customers.csv
 
 | Customer | country | city | address | Start Date | email | Current Balance |
+| --- | --- | --- | --- | --- | --- | --- |
 | DERRICK BOURQUE | Canada | Gatineau | 1153 Allende Way | 02/14/2006 | DERRICK.BOURQUE@sakilacustomer.org | 0.00 |
 | DARRELL POWER | Canada | Halifax | 1844 Usak Avenue | 02/14/2006 | DARRELL.POWER@sakilacustomer.org | 0.00 |
 | LORETTA CARPENTER | Canada | Oshawa | 891 Novi Sad Manor | 02/14/2006 | LORETTA.CARPENTER@sakilacustomer.org | 0.00 |
