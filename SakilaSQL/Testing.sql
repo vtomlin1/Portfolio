@@ -53,8 +53,6 @@ FROM customer c
     INNER JOIN country RY
     ON RY.country_id = Y.country_id
 
-
-
 WHERE active = '1'
 ORDER BY RY.country ASC;
 
