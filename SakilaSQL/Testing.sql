@@ -54,7 +54,7 @@ FROM customer c
     ON RY.country_id = Y.country_id
 
 WHERE active = '1'
-ORDER BY RY.country ASC;
+ORDER BY RY.country ASC
 
 /*Gets the store location and ID*/
 /*SELECT 
