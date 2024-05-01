@@ -14,7 +14,7 @@ email,
 get_customer_balance(customer_id,NOW())
 FROM customer
 /*Find the specific customer*/
-WHERE CONCAT(first_name, ' ',last_name) = "VICTORIA GIBSON";
+WHERE CONCAT(first_name, ' ',last_name) = "Darrell Power";
 
 
 /*Gets the ID, Genre, Rating, and Inventory of films*/
