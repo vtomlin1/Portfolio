@@ -9,16 +9,19 @@ new_directory = r'C:\Users\VToml\Jupter-Lab\Portfolio_Project\SakilaSQL'
 # Change the current working directory
 os.chdir(new_directory)
 
-def csv_to_markdown_table(csv_file):
+def csv_to_markdown_table(csv_file, max_width=20):
     with open(csv_file, 'r', newline='') as csvfile:
         csvreader = csv.reader(csvfile)
         table = []
         header = next(csvreader)
-        table.append('| ' + ' | '.join(header) + ' |')
+        truncated_header = [col[:max_width] for col in header]
+        table.append('| ' + ' | '.join(truncated_header) + ' |')
         table.append('| ' + ' | '.join(['---'] * len(header)) + ' |')
         for row in csvreader:
-            table.append('| ' + ' | '.join([cell.strip() for cell in row]) + ' |')  # Remove leading/trailing spaces
+            truncated_row = [cell[:max_width] for cell in row]
+            table.append('| ' + ' | '.join(truncated_row) + ' |')  # Truncate cell contents
         return table
+
 
 def append_table_to_readme(csv_file, readme_file):
     with open(readme_file, 'a') as readme:
