@@ -20,3 +20,6 @@ FROM customer
 WHERE CONCAT(first_name, ' ',last_name) = "VICTORIA GIBSON";
 ```
 This code comes from this sql file [Rental](/SakilaSQL/Rental.sql).
+
+
+## Canada_Customers.csv
