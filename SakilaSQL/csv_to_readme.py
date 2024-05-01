@@ -1,4 +1,14 @@
 import csv
+import os
+
+#current_directory = os.getcwd()
+#print("Current directory:", current_directory)
+# Specify the path to the directory you want to change to
+new_directory = r'C:\Users\VToml\Jupter-Lab\Portfolio_Project\SakilaSQL'
+
+# Change the current working directory
+os.chdir(new_directory)
+
 
 def csv_to_markdown_table(csv_file):
     with open(csv_file, 'r', newline='') as csvfile:
@@ -20,7 +30,7 @@ def append_tables_to_readme(csv_files, readme_file):
 csv_files = ['Canada_Customers.csv']
 
 # Your README file
-readme_file = 'README.md'
+readme_file = r'C:\Users\VToml\Jupter-Lab\Portfolio_Project\README.md'
 
 # Call the function to append tables to the README file
 append_tables_to_readme(csv_files, readme_file)
