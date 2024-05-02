@@ -36,6 +36,8 @@ This sql code gives the following table.
 | CURTIS IRBY | Canada | Richmond Hill | 432 Garden Grove Str | 02/14/2006 | CURTIS.IRBY@sakilacu | 0.00 |
 | TROY QUIGLEY | Canada | Vancouver | 983 Santa Fé Way | 02/14/2006 | TROY.QUIGLEY@sakilac | 0.00 |
 
+We can view all of the active customers from Canada, their address, email, and current balance.
+
 ```sql
 /*Check the current balance of the customer*/
 SELECT 
@@ -46,6 +48,6 @@ email,
 get_customer_balance(customer_id,NOW())
 FROM customer
 /*Find the specific customer*/
-WHERE CONCAT(first_name, ' ',last_name) = "VICTORIA GIBSON";
+WHERE CONCAT(first_name, ' ',last_name) = "Darrell Power";
 ```
-This code comes from this sql file [Rental](/SakilaSQL/Rental.sql).
+This code comes from this sql file [Rental](/SakilaSQL/Rental.sql). 
