@@ -25,7 +25,7 @@ WHERE active = '1' and RY.country = "Canada"
 ORDER BY RY.country ASC
 ```
 This sql code gives the following table. 
-## Active Customers
+# Active Customers
 
 | Customer | country | city | address | Start Date | email | Current Balance |
 | --- | --- | --- | --- | --- | --- | --- |
