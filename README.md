@@ -38,16 +38,44 @@ This sql code gives the following table.
 
 We can view all of the active customers from Canada, their address, email, and current balance.
 
+Now suppose that Darrell Power wants to rent a film. We can query his rental history with the following code:
 ```sql
-/*Check the current balance of the customer*/
+/*Get customer rental history*/
 SELECT 
-customer_id, 
-CONCAT(first_name, ' ',last_name) as "Name",
-email,
-/*Use a stored function to retrieve the current balance*/
-get_customer_balance(customer_id,NOW())
-FROM customer
+DATE_FORMAT(rental_date, "%m/%d/%Y") as "Rental Date",
+title as "Title",
+ca.name as "Genre",
+rating as "Rating"
+FROM customer c
+    INNER JOIN rental r
+    ON c.customer_id = r.customer_id
+    INNER JOIN inventory i
+    ON r.inventory_id = i.inventory_id
+    INNER JOIN film f
+    ON f.film_id = i.film_id
+    INNER JOIN film_category fc
+    ON f.film_id = fc.film_id
+    INNER JOIN category ca
+    ON ca.category_id = fc.category_id
+
+
 /*Find the specific customer*/
-WHERE CONCAT(first_name, ' ',last_name) = "Darrell Power";
+WHERE CONCAT(first_name, ' ',last_name) = "Darrell Power"
+order by rental_date DESC;
 ```
-This code comes from this sql file [Rental](/SakilaSQL/Rental.sql). 
+
+
+## Rental_History.csv
+
+| Rental Date | Title | Genre | Rating |
+| --- | --- | --- | --- |
+| 08/22/2005 | THIEF PELICAN | Animation | PG-13 |
+| 08/22/2005 | INTENTIONS EMPIRE | Animation | PG-13 |
+| 08/21/2005 | DRACULA CRYSTAL | Classics | G |
+| 08/20/2005 | SOMETHING DUCK | Drama | NC-17 |
+| 08/19/2005 | DIVINE RESURRECTION | Games | R |
+| 08/18/2005 | FRENCH HOLIDAY | Documentary | PG |
+| 08/17/2005 | ALABAMA DEVIL | Horror | PG-13 |
+| 08/02/2005 | POLLOCK DELIVERANCE | Foreign | PG |
+| 08/01/2005 | SIEGE MADRE | Family | R |
+| 08/01/2005 | CHITTY LOCK | Drama | G |

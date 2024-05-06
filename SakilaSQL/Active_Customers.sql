@@ -2,6 +2,7 @@
 SELECT CONCAT(first_name, ' ', last_name) as 'Customer', RY.country, Y.city, a.address,
 DATE_FORMAT(create_date, "%m/%d/%Y") as "Start Date",
 email,
+/*Used the stored procedure to get the customers' balance*/
 get_customer_balance(c.customer_id,NOW()) as "Current Balance"
 FROM customer c
     INNER JOIN address a 

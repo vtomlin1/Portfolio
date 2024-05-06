@@ -35,7 +35,7 @@ def append_table_to_readme(csv_file, readme_file):
             readme.write(row + '\n')
 
 # CSV file path
-csv_file = r'C:\Users\VToml\Jupter-Lab\Portfolio_Project\SakilaSQL\Canada_Customers.csv'
+csv_file = r'C:\Users\VToml\Jupter-Lab\Portfolio_Project\SakilaSQL\Rental_History.csv'
 
 # README file path
 readme_file = r'C:\Users\VToml\Jupter-Lab\Portfolio_Project\README.md'
