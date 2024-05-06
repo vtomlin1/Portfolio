@@ -5,6 +5,9 @@ f.film_id as "ID",
 f.title as "Film",
 c.name as "Genre",
 f.rating as "Rating",
+f.description as "Summary",
+f.rental_rate as "Price",
+f.rental_duration as "Days",
 /*Checks the stock of the store in Lethbridge, Canada*/
 (SELECT COUNT(*) FROM inventory WHERE film_id = f.film_id AND store_id = 1) AS "Stock"
 FROM film f 

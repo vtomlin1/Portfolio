@@ -106,19 +106,3 @@ WHERE c.name = 'Animation' AND Rating = "PG-13";
 ```
 
 
-
-## Rental_Films
-[Table](/SakilaSQL/Rental_Films.csv)
-
-| ID | Film | Genre | Rating | Stock |
-| --- | --- | --- | --- | --- |
-| 953 | WAIT CIDER | Animation | PG-13 | 4 |
-| 887 | THIEF PELICAN | Animation | PG-13 | 4 |
-| 886 | THEORY MERMAID | Animation | PG-13 | 4 |
-| 880 | TELEMARK HEARTBREAKE | Animation | PG-13 | 4 |
-| 865 | SUNRISE LEAGUE | Animation | PG-13 | 4 |
-| 690 | POND SEATTLE | Animation | PG-13 | 4 |
-| 651 | PACKER MADIGAN | Animation | PG-13 | 2 |
-| 583 | MISSION ZOOLANDER | Animation | PG-13 | 3 |
-| 489 | JUGGLER HARDLY | Animation | PG-13 | 4 |
-| 464 | INTENTIONS EMPIRE | Animation | PG-13 | 4 |
