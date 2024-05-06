@@ -1,12 +1,11 @@
-# Hello! My name is Tori Tomlinson   
+# Hello! My name is Victoria Tomlinson   
+Here are some of the projects that I have worked on. I am always updating as I learn!  
 ## Projects   
 ### [SQL Sakila](/SakilaSQL/)  
 ---   
-The Sakila database (version 1.3) is an example database from the MySQL workbench app. 
+In this project, I have practiced queries in MySQL from a large example database from the MySQL workbench app. The database is called Sakila (version 1.3) and it consists of sample data that a rental store would have, including customer data, rental history, payment history, information on the films, inventory, and more. The [EER Diagram](/SakilaSQL/Sakila_EER_Diagram.png) shows a visual of what the database looks like. For a more detailed look into the database, [here](/SakilaSQL/sakila-schema.sql) is the schema.  
 
-[Link to EER Diagram](/SakilaSQL/Sakila_EER_Diagram.png)
-
-[Link to Schema](/SakilaSQL/sakila-schema.sql)
+I wanted to create a rental process where I can see the customer's history, find a film in stock, and add their rental into the database.
 
 ```sql
 /*This block gets all the active customers*/
@@ -26,7 +25,7 @@ WHERE active = '1' and RY.country = "Canada"
 ORDER BY RY.country ASC
 ```
 This sql code gives the following table. 
-## Canada_Customers.csv
+## Active Customers
 
 | Customer | country | city | address | Start Date | email | Current Balance |
 | --- | --- | --- | --- | --- | --- | --- |
