@@ -89,6 +89,9 @@ f.film_id as "ID",
 f.title as "Film",
 c.name as "Genre",
 f.rating as "Rating",
+f.description as "Summary",
+f.rental_rate as "Price",
+f.rental_duration as "Days",
 /*Checks the stock of the store in Lethbridge, Canada*/
 (SELECT COUNT(*) FROM inventory WHERE film_id = f.film_id AND store_id = 1) AS "Stock"
 FROM film f 
@@ -105,4 +108,18 @@ FROM film f
 WHERE c.name = 'Animation' AND Rating = "PG-13";
 ```
 
+## Recommended Films
+[Table](/SakilaSQL/Rental_Films.csv)
 
+| ID | Film | Genre | Rating | Summary | Price | Days | Stock |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| 953 | WAIT CIDER | Animation | PG-13 | A Intrepid Epistle o | 0.99 | 3 | 4 |
+| 887 | THIEF PELICAN | Animation | PG-13 | A Touching Documenta | 4.99 | 5 | 4 |
+| 886 | THEORY MERMAID | Animation | PG-13 | A Fateful Yarn of a  | 0.99 | 5 | 4 |
+| 880 | TELEMARK HEARTBREAKE | Animation | PG-13 | A Action-Packed Pano | 2.99 | 6 | 4 |
+| 865 | SUNRISE LEAGUE | Animation | PG-13 | A Beautiful Epistle  | 4.99 | 3 | 4 |
+| 690 | POND SEATTLE | Animation | PG-13 | A Stunning Drama of  | 2.99 | 7 | 4 |
+| 651 | PACKER MADIGAN | Animation | PG-13 | A Epic Display of a  | 0.99 | 3 | 2 |
+| 583 | MISSION ZOOLANDER | Animation | PG-13 | A Intrepid Story of  | 4.99 | 3 | 3 |
+| 489 | JUGGLER HARDLY | Animation | PG-13 | A Epic Story of a Ma | 0.99 | 4 | 4 |
+| 464 | INTENTIONS EMPIRE | Animation | PG-13 | A Astounding Epistle | 2.99 | 3 | 4 |
