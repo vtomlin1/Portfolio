@@ -79,3 +79,23 @@ order by rental_date DESC;
 | 08/02/2005 | POLLOCK DELIVERANCE | Foreign | PG |
 | 08/01/2005 | SIEGE MADRE | Family | R |
 | 08/01/2005 | CHITTY LOCK | Drama | G |
+
+Supposed Darrell wants another animation film rated PG-13. [This](/SakilaSQL/Films.sql) sql query will grab all of the films from the store in Canada that matches those criteria as well as how many are in stock.  
+
+
+
+## Rental_Films
+[Table](/SakilaSQL/Rental_Films.csv)
+
+| ID | Film | Genre | Rating | Stock |
+| --- | --- | --- | --- | --- |
+| 953 | WAIT CIDER | Animation | PG-13 | 4 |
+| 887 | THIEF PELICAN | Animation | PG-13 | 4 |
+| 886 | THEORY MERMAID | Animation | PG-13 | 4 |
+| 880 | TELEMARK HEARTBREAKE | Animation | PG-13 | 4 |
+| 865 | SUNRISE LEAGUE | Animation | PG-13 | 4 |
+| 690 | POND SEATTLE | Animation | PG-13 | 4 |
+| 651 | PACKER MADIGAN | Animation | PG-13 | 2 |
+| 583 | MISSION ZOOLANDER | Animation | PG-13 | 3 |
+| 489 | JUGGLER HARDLY | Animation | PG-13 | 4 |
+| 464 | INTENTIONS EMPIRE | Animation | PG-13 | 4 |
