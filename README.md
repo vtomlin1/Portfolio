@@ -65,7 +65,8 @@ order by rental_date DESC;
 ```
 
 
-## Rental History [full table](/SakilaSQL/Rental_History.csv)
+## Rental History 
+[Table](/SakilaSQL/Rental_History.csv)
 
 | Rental Date | Title | Genre | Rating |
 | --- | --- | --- | --- |
