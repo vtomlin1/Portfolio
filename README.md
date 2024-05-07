@@ -2,7 +2,7 @@
 Here are some of the projects that I have worked on. I am always updating as I learn!  
 ## Projects  
 
-### [Housing Prices with Python](/Python/MLH Housing Prices Forecasting.ipynb)
+### [Housing Prices with Python](/Python/MLH_Housing_Prices_Forecasting.ipynb)
 
 ### [SQL Sakila](/SakilaSQL/)  
 ---   
