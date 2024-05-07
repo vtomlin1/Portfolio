@@ -1,6 +1,9 @@
 # Hello! My name is Victoria Tomlinson   
 Here are some of the projects that I have worked on. I am always updating as I learn!  
-## Projects   
+## Projects  
+
+### [Housing Prices with Python](/Python/MLH Housing Prices Forecasting.ipynb)
+
 ### [SQL Sakila](/SakilaSQL/)  
 ---   
 In this project, I have practiced queries in MySQL from a large example database from the MySQL workbench app. The database is called Sakila (version 1.3) and it consists of sample data that a rental store would have, including customer data, rental history, payment history, information on the films, inventory, and more. The [EER Diagram](/SakilaSQL/Sakila_EER_Diagram.png) shows a visual of what the database looks like. For a more detailed look into the database, [here](/SakilaSQL/sakila-schema.sql) is the schema.  
