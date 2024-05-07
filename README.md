@@ -3,6 +3,10 @@ Here are some of the projects that I have worked on. I am always updating as I l
 ## Projects  
 
 ### [Housing Prices with Python](/Python/MLH_Housing_Prices_Forecasting.ipynb)
+---     
+I attended some virtual workshops from Major League Hacking that taught machine learning in python. In these workshops, we were able to clean the data, manipulate the data to give more accurate results, and build different machine learning algorithms to predict the costs of houses.  
+
+Everything was done in [this](/Python/MLH_Housing_Prices_Forecasting.ipynb) jupyter notebook.   
 
 ### [SQL Sakila](/SakilaSQL/)  
 ---   
