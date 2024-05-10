@@ -2,7 +2,7 @@
 Here are some of the projects that I have worked on. I am always updating as I learn!  
 ## Projects  
 
-### [Housing Prices with Python](/Python/MLH_Housing_Prices_Forecasting.ipynb)
+### [Forecasting Housing Prices with Python](/Python)
 ---     
 I attended some virtual workshops from Major League Hacking that taught machine learning in python. In these workshops, we were able to clean the data, manipulate the data to give more accurate results, and build different machine learning algorithms to predict the costs of houses.  
 
