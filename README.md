@@ -6,11 +6,13 @@ Here are some of the projects that I have worked on. I am always updating as I l
 ---     
 I attended some virtual workshops from Major League Hacking that taught machine learning in python. In these workshops, we were able to clean the data, manipulate the data to give more accurate results, and build different machine learning algorithms to predict the costs of houses.  
 
-[This](/Python/Data_Cleaning.ipynb) jupyter notebook goes over data exploration and data cleaning. After some data analysis, I have created a [python script](/Python/Preprocessing.py) to preprocess the [testing](/Python/test.csv) and [training](/Python/train.csv) data sets. 
+[This](/Python/Data_Cleaning.ipynb) jupyter notebook goes over data exploration and data cleaning. After some data analysis, I have created a [python script](/Python/Preprocessing.py) to preprocess the [testing](/Python/test.csv) and [training](/Python/train.csv) data. 
 
-### [SQL Sakila](/SakilaSQL/)  
+[This](/Python/ML.ipynb) notebook goes over some machine learning models and their accuracy.  
+
+### [Database queries with MySQL](/SakilaSQL/)  
 ---   
-In this project, I have practiced queries in MySQL from a large example database from the MySQL workbench app. The database is called Sakila (version 1.3) and it consists of sample data that a rental store would have, including customer data, rental history, payment history, information on the films, inventory, and more. The [EER Diagram](/SakilaSQL/Sakila_EER_Diagram.png) shows a visual of what the database looks like. For a more detailed look into the database, [here](/SakilaSQL/sakila-schema.sql) is the schema.  
+In this project, I have written MySQL queries to pull data from a large database from the MySQL workbench app. The database is called Sakila (version 1.3) and it consists of sample data that a rental store would have, including customer data, rental history, payment history, information on the films, inventory, and more. The [EER Diagram](/SakilaSQL/Sakila_EER_Diagram.png) shows a visual of what the database looks like. For a more detailed look into the database, [here](/SakilaSQL/sakila-schema.sql) is the schema.  
 
 I wanted to create a rental process where I can see the customer's history, find a film in stock, and add their rental into the database.
 
